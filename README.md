@@ -1,26 +1,19 @@
 # SpringSentinel
 
-SpringSentinel is a lightweight Spring Boot starter project designed to help developers bootstrap Java backend services quickly and efficiently. This project serves as a foundation for building RESTful APIs with Spring Boot, offering modularity, clarity, and ease of extension.
+**Status: early-stage starter. This repository currently contains the initial Spring Boot project scaffold (Gradle build, application entry point and test setup). Monitoring/API features are planned but not implemented yet.**
 
-## 🚀 Features
+## Stack
 
-- ✅ Spring Boot 3.4.4
-- ✅ Gradle build system
-- ✅ Java 23 language support
-- ✅ Pre-configured for rapid development
-- ✅ Easily extensible and production-ready structure
+Java 23, Spring Boot 3.4.4, Gradle, JUnit
 
-## 📦 Technologies Used
+## Goal
 
-- Java 23
-- Spring Boot
-- Gradle
-- JUnit (for testing)
+A small Spring Boot backend that will expose a REST API for basic system/service monitoring, built as a hands-on learning project in Java backend development.
 
-## 🔧 Getting Started
+## Run locally
 
-1. Clone the repository:
+Clone the repository, then run the Gradle wrapper: ./gradlew bootRun
 
-```bash
-git clone https://github.com/Nicoruzza21/springsentinel.git
-    
+## Next steps
+
+Add a first health/status REST endpoint, add tests for it, and document the API.
